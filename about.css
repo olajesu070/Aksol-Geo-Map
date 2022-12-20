@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
+}
+
+nav img{
+    width: 110px;
+    height: 105px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+nav a{
+    margin-right: 700px;
+    text-align: center;
+    width: 120px;
+    color: white;
+    position: relative;
+}
+nav a div{
+    position: absolute;
+    left: 23px;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(39, 36, 36, 0.274),rgba(19, 20, 19, 0.329)), url(images/bannerimage.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -170px;
+}
+header h1{
+    font-size: 40px;
+    color: white;
+}
+.meet-the-principle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 30px;
+}
+.image .text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+}
+.image .text h3{
+    font-size: 35px;
+    width: 550px;
+    text-align: center;
+}
+.image .text h5{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.image img{
+    width: 430px;
+    height: 570px;
+    border-radius: 20px;
+    border: 2px black solid;
+    right: 0;
+    margin-right:  30px;
+}
+.contant{
+    padding: 0 30px;
+    margin-bottom: 40px;
+}
+.contant p{
+    box-shadow: inset 1px 3px 5px black;
+    padding: 10px;
+}
+footer .contents{
+    text-align: center;
+}
+footer .contents h4{
+    padding: 20px 0;
+}
